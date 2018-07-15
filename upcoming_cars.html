@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+       </head> 
+<body>
+        <div class="container-fluid">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                  
+        
+                        <a class="navbar-brand" href="#">Logo</a>
+                      
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                              New Cars
+                            </a>
+                            <div class="dropdown-menu s7">
+                              <a class="dropdown-item " href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Find_New_Cars.html">Find New Cars</a>
+                              <a class="dropdown-item " href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/upcoming_cars.html">Upcoming Cars</a>
+                              <a class="dropdown-item " href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/New_Launches.html">New Launches</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                  Reviews
+                                </a>
+                                <div class="dropdown-menu s7">
+                                  <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Customer_Reviews.html"> Customer Reviews</a>
+                                  <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Videos/videos.html">Videos</a>
+                                  <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Tips_And_Advice.html">Tips And Advice</a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                      Specials
+                                    </a>
+                                    <div class="dropdown-menu s7">
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Car_Tyres.html">Car Tyres</a>
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Electric_Vehicles.html">Electric Vehicles</a>
+                                      
+                                    </div>
+                                    
+                                  </li>
+        
+                                
+        
+        
+        
+        
+        
+                                  <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                      Brand
+                                    </a>
+                                    <div class="dropdown-menu s7">
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/page2/page2_index.html">Maruti Suzuki</a>
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/page3/page3_index.html">Hyundai</a>
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/Honda/Honda.html">Honda</a>
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/Toyota/Toyota.html">Toyota</a>
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/Ford/ford.html">Ford</a>
+                                      <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/BMW/BMW.html">BMW</a>
+                                      
+                                    </div>
+                                    
+                                  </li>
+        
+        
+        
+        
+                                  <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                      Used Cars
+                                    </a>
+                                    <div class="dropdown-menu s7">
+                                      <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Car_Tyres.html">Search Used Cars</a>
+                                      <a class="dropdown-item sell_used_cars sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Sell%20Used%20cars/Sell%20Used%20cars.html">Sell Used Cars</a>
+                                      <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Used%20cars%20in%20delhi/Delhi.html">Used Cars in Delhi</a>
+                                      <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Electric_Vehicles.html">Used Cars in Mumbai</a>
+                                      <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Car_Tyres.html">Used Cars in Bangalore</a>
+                                      <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Electric_Vehicles.html">Used Cars in Hyderabad</a>
+                                      
+                                    </div>
+                                    
+                                  </li>
+        
+                                 
+                                  
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       
+                        
+        
+                                
+                                  
+        
+                                  
+        
+        
+                                  
+                                  
+                        </ul> 
+        
+        
+                        
+                        
+                       
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       
+        
+                        
+        
+                        <form class="form-inline" action="/action_page.php">
+                            <input class="form-control mr-sm-2 search" type="text" placeholder="Search">
+                            <button class="btn btn-success search" type="submit">Search</button>
+                          </form>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <img src="person.jpg" height="25px" width="25px" class="rounded-circle person">
+        
+        
+                      </nav>
+                    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container-fluid">
+        <div class="row">
+                    <div class="col-sm-4">
+                <div  class="container-fluid tab-pane active"><br>
+                     
+                    <div class="card" style="width:400px">
+                <div class="card-body">
+                        <img class="card-img-bottom" src="image21.jpg" alt="Card image" style="width:100%">
+                        <p>
+                                <b> Jeep Renegade</b><br>
+                               <b> When to expect:</b> January 2020<br>
+                               <b> Estimated Price:</b> ₹ 12 - 17 Lakhs<br>
+                               <p>Jeep, starting with Willys produced the first civilian jeep in 1945. It is the only 
+                                   company that continued producing jeeps after the world war and are still doing so. 
+                                   Jeep also produces premium off-road SUVs. From this stable comes the Renegade, a small, 
+                                   fun and affordable 4x4 offering...
+                                   <a href="#" >read more</a>
+                                 </p>
+
+
+                        </p>
+                <a href="#">
+                        <div class="three-dot">...</div>
+                        </a>
+                </div>
+                </div>
+                </div>
+                
+                 </div>
+
+
+                 <div class="col-sm-4">
+                        <div  class="container-fluid tab-pane active"><br>
+                             
+                            <div class="card" style="width:400px">
+                        <div class="card-body">
+                                <img class="card-img-bottom" src="image22.jpg" alt="Card image" style="width:100%">
+                                <p>
+                                        <b> Porsche Cayenne Turbo</b><br>
+                                       <b> When to expect:</b> July 2018<br>
+                                       <b> Estimated Price:</b> ₹ 1.92 crore<br>
+                                       <p>Porsche Cayenne Turbo is the mid petrol variant in the Cayenne lineup and is priced at Rs. 
+                                           1.92 crore (ex-showroom, Delhi). This base variant comes with an engine putting out 550bhp@5750-6000rpm and
+                                            770Nm@1960-4500rpm of max power and max torque respectively... 
+                                           <a href="#" >read more</a>
+                                         </p>
+        
+        
+                                </p>
+                        <a href="#">
+                                <div class="three-dot">...</div>
+                                </a>
+                        </div>
+                        </div>
+                        </div>
+                        
+                         </div>
+
+
+                         <div class="col-sm-4">
+                                <div  class="container-fluid tab-pane active"><br>
+                                     
+                                    <div class="card" style="width:400px">
+                                <div class="card-body">
+                                        <img class="card-img-bottom" src="image23.jpg" alt="Card image" style="width:100%">
+                                        <p>
+                                                <b> Maruti Ertiga </b><br>
+                                               <b> When to expect:</b> August  2018<br>
+                                               <b> Estimated Price:</b> ₹ 9 lakh<br>
+                                               <p>If the grapevine is to be believed, the new Maruti Suzuki Ertiga will be retailed via Nexa 
+                                                   showrooms. The 2018 Ertiga is an all-new model based on a new platform and will get new engines
+                                                    as well... 
+                                                   <a href="#" >read more</a>
+                                                 </p>
+                
+                
+                                        </p>
+                                <a href="#">
+                                        <div class="three-dot">...</div>
+                                        </a>
+                                </div>
+                                </div>
+                                </div>
+                                
+                                 </div>
+
+                </div>
+            </div>
+
+        
+
+      
+            
+
+
+
+
+
+
+            <div class="container-fluid">
+                    <div class="row">
+                                <div class="col-sm-4">
+                            <div  class="container-fluid tab-pane active"><br>
+                                 
+                                <div class="card" style="width:400px">
+                            <div class="card-body">
+                                    <img class="card-img-bottom" src="image25.jpg" alt="Card image" style="width:100%">
+                                    <p>
+                                            <b> Mercedes-Benz C-Class Facelift</b><br>
+                                           <b> When to expect:</b> October 2018<br>
+                                           <b> Estimated Price:</b> ₹ 39 - 44 Lakhs<br>
+                                           <p>The German manufacturer introduced the third gen Mercedes C-Class in India,
+                                               ode named the W205. The current Mercedes C-Class on sale made a global debut 
+                                               n early 2014 and was launched on the domestic front later that year...
+                                               <a href="#" >read more</a>
+                                             </p>
+            
+            
+                                    </p>
+                            <a href="#">
+                                    <div class="three-dot">...</div>
+                                    </a>
+                            </div>
+                            </div>
+                            </div>
+                            
+                             </div>
+            
+            
+                             <div class="col-sm-4">
+                                    <div  class="container-fluid tab-pane active"><br>
+                                         
+                                        <div class="card" style="width:400px">
+                                    <div class="card-body">
+                                            <img class="card-img-bottom" src="image26.jpg" alt="Card image" style="width:100%">
+                                            <p>
+                                                    <b> Audi New Q3</b><br>
+                                                   <b> When to expect:</b> December 2018<br>
+                                                   <b> Estimated Price:</b> ₹33-44 lakhs<br>
+                                                   <p>Audi is known to be currently working on an all-new generation of its Q3; an SUV that 
+                                                       shows off its good build quality and luxurious interiors. However, the current model
+                                                        has been around for some time now, and the competition has moved ahead... 
+                                                       <a href="#" >read more</a>
+                                                     </p>
+                    
+                    
+                                            </p>
+                                    <a href="#">
+                                            <div class="three-dot">...</div>
+                                            </a>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    
+                                     </div>
+            
+            
+                                     <div class="col-sm-4">
+                                            <div  class="container-fluid tab-pane active"><br>
+                                                 
+                                                <div class="card" style="width:400px">
+                                            <div class="card-body">
+                                                    <img class="card-img-bottom" src="image27.jpg" alt="Card image" style="width:100%">
+                                                    <p>
+                                                            <b> Renault New Duster</b><br>
+                                                           <b> When to expect:</b> August  2018<br>
+                                                           <b> Estimated Price:</b> ₹ 8.6-14 lakh<br>
+                                                           <p>Renault last showcased the 2018 Renault Duster in production form at the 2017 
+                                                               Frankfurt Motor Show. The third generation model gets fresh cosmetic and feature 
+                                                               upgrades, while mechanically it will continue being powered by existing engine options... 
+                                                               <a href="#" >read more</a>
+                                                             </p>
+                            
+                            
+                                                    </p>
+                                            <a href="#">
+                                                    <div class="three-dot">...</div>
+                                                    </a>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            
+                                             </div>
+            
+                            </div>
+                        </div>
+            
+
+
+
+
+
+                       
+                       
+                       
+                       
+                        <div class="container-fluid">
+                                <div class="row">
+                                            <div class="col-sm-4">
+                                        <div  class="container-fluid tab-pane active"><br>
+                                             
+                                            <div class="card" style="width:400px">
+                                        <div class="card-body">
+                                                <img class="card-img-bottom" src="image28.jpg" alt="Card image" style="width:100%">
+                                                <p>
+                                                        <b> Volkswagen T-Cross</b><br>
+                                                       <b> When to expect:</b> October 2018<br>
+                                                       <b> Estimated Price:</b> ₹ 12-16 Lakhs<br>
+                                                       <p>Volkswagen, in 2015, had announced that it would be introducing SUVs across its entire
+                                                            range within the next few years. It has taken a trickle-down approach and after introducing
+                                                             the big SUVs in Europe, America and China...
+                                                           <a href="#" >read more</a>
+                                                         </p>
+                        
+                        
+                                                </p>
+                                        <a href="#">
+                                                <div class="three-dot">...</div>
+                                                </a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        
+                                         </div>
+                        
+                        
+                                         <div class="col-sm-4">
+                                                <div  class="container-fluid tab-pane active"><br>
+                                                     
+                                                    <div class="card" style="width:400px">
+                                                <div class="card-body">
+                                                        <img class="card-img-bottom" src="image29.jpg" alt="Card image" style="width:100%">
+                                                        <p>
+                                                                <b> Tata 45X</b><br>
+                                                               <b> When to expect:</b> March 2019<br>
+                                                               <b> Estimated Price:</b> ₹8-10 lakhs<br>
+                                                               <p>Audi is known to be currently working on an all-new generation of its Q3; an SUV that 
+                                                                   shows off its good build quality and luxurious interiors. However, the current model
+                                                                    has been around for some time now, and the competition has moved ahead... 
+                                                                   <a href="#" >read more</a>
+                                                                 </p>
+                                
+                                
+                                                        </p>
+                                                <a href="#">
+                                                        <div class="three-dot">...</div>
+                                                        </a>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                
+                                                 </div>
+                        
+                        
+                                                 <div class="col-sm-4">
+                                                        <div  class="container-fluid tab-pane active"><br>
+                                                             
+                                                            <div class="card" style="width:400px">
+                                                        <div class="card-body">
+                                                                <img class="card-img-bottom" src="image30.jpg" alt="Card image" style="width:100%">
+                                                                <p>
+                                                                        <b> Mahindra New Rexton</b><br>
+                                                                       <b> When to expect:</b> October  2018<br>
+                                                                       <b> Estimated Price:</b> ₹ 35-40 lakh<br>
+                                                                       <p>The second generation SsangYong Rexton will be launched in India soon as Mahindra G4 Rexton in India.
+                                                                            As seen at the 2018 Auto Expo, the vehicle will carry a new Mahindra badging, along with a fresh set of 
+                                                                            cosmetic and feature upgrades...
+                                                                           <a href="#" >read more</a>
+                                                                         </p>
+                                        
+                                        
+                                                                </p>
+                                                        <a href="#">
+                                                                <div class="three-dot">...</div>
+                                                                </a>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                        
+                                                         </div>
+                        
+                                        </div>
+                                    </div>
+                        
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    
+
+                                    <div class="container-fluid bg-grey">
+                                        <br>
+                                        <br>
+                                         <h1 style="text-align: center;color: peru">Contact Us</h1>
+                                         <p>
+                                         <img src="image57.jpg" height="20px" width="20px" class="rounded-circle">&nbsp;&nbsp;
+                                            Delhi,India
+                                        </p>
+                                        <p>
+                                                <img src="image58.jpg" height="20px" width="20px" class="rounded-circle">&nbsp;&nbsp;
+                                                   7042101868,9958588278
+                                               </p>
+                                               <p>
+                                                    <img src="image59.jpg" height="20px" width="20px" class="rounded-circle">&nbsp;&nbsp;
+                                                       goelvineet8@gmail.com,baby@gmail.com
+                                                   </p>
+                                    
+                                                   <br>
+                                                   <br>
+                                                   <form class="form-inline" action="/action_page.php">
+                                                    <input class="form-control name" id="name" placeholder="Name"  name="name" style="width: 700px" >
+                                                    <br>
+                                                    <br>
+                                                    <input class="form-control email" id="email" placeholder="Email"   name="email" style="width: 700px">
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <textarea class="form-control comment" id="comments" name="comments" placeholder="Comment" rows="5"style="width: 700px"></textarea><br>
+                                                  </form>
+                                                  <br>
+                                                  <button class="btn btn-success" style="margin-left: 680px">Send</button>
+                                     </div>
+            
+               
+              
+        
+        
+ 
+<body>
+    
+</body>
+</html>

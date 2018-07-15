@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <script>
+        window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  document.getElementById("myBtn").style.display = "block";
+              } else {
+                  document.getElementById("myBtn").style.display = "none";
+              }
+          }
+          
+         
+          function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+          }
+        </script>
+
+        
+</head>
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <div ></div>
+<div ></div>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+          
+
+                <a class="navbar-brand" href="#">Logo</a>
+              
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      New Cars
+                    </a>
+                    <div class="dropdown-menu s7">
+                      <a class="dropdown-item " href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Find_New_Cars.html">Find New Cars</a>
+                      <a class="dropdown-item " href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/upcoming_cars.html">Upcoming Cars</a>
+                      <a class="dropdown-item " href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/New_Launches.html">New Launches</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                          Reviews
+                        </a>
+                        <div class="dropdown-menu s7">
+                          <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Customer_Reviews.html"> Customer Reviews</a>
+                          <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Videos/videos.html">Videos</a>
+                          <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Tips_And_Advice.html">Tips And Advice</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                              Specials
+                            </a>
+                            <div class="dropdown-menu s7">
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Car_Tyres.html">Car Tyres</a>
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Electric_Vehicles.html">Electric Vehicles</a>
+                              
+                            </div>
+                            
+                          </li>
+
+                        
+
+
+
+
+
+                          <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                              Brand
+                            </a>
+                            <div class="dropdown-menu s7">
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/page2/page2_index.html">Maruti Suzuki</a>
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/page3/page3_index.html">Hyundai</a>
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/Honda/Honda.html">Honda</a>
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/Toyota/Toyota.html">Toyota</a>
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/Ford/ford.html">Ford</a>
+                              <a class="dropdown-item" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Brands/BMW/BMW.html">BMW</a>
+                              
+                            </div>
+                            
+                          </li>
+
+
+
+
+                          <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                              Used Cars
+                            </a>
+                            <div class="dropdown-menu s7">
+                              <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Car_Tyres.html">Search Used Cars</a>
+                              <a class="dropdown-item sell_used_cars sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Sell%20Used%20cars/Sell%20Used%20cars.html">Sell Used Cars</a>
+                              <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Used%20cars%20in%20delhi/Delhi.html">Used Cars in Delhi</a>
+                              <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Electric_Vehicles.html">Used Cars in Mumbai</a>
+                              <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Car_Tyres.html">Used Cars in Bangalore</a>
+                              <a class="dropdown-item sell_cars" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Electric_Vehicles.html">Used Cars in Hyderabad</a>
+                              
+                            </div>
+                            
+                          </li>
+
+                         
+                          
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               
+                
+
+                        
+                          
+
+                          
+
+
+                          
+                          
+                </ul> 
+
+
+                
+                
+               
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               
+
+                
+
+                <form class="form-inline" action="/action_page.php">
+                    <input class="form-control mr-sm-2 search" type="text" placeholder="Search">
+                    <button class="btn btn-success search" type="submit">Search</button>
+                  </form>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="person.jpg" height="25px" width="25px" class="rounded-circle person">
+
+
+              </nav>
+            </div>
+    <div class="jumbotron s2 container-fluid">CARFUN
+            <form action="/action_page.php">
+                <div class="form-group">
+                  <div class="col-sm-6">
+                  <input type="text" class="form-control mb-2 mr-sm-2 s6" width="100px" placeholder="Search" >
+                </div>
+                </div>
+    </div>
+</div> 
+
+
+
+
+
+
+
+<div id="demo" class="carousel slide container" data-ride="carousel">
+
+        
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          
+        </ul>
+        
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Volvo%20XC40%20Launch/Volvo%20XC40%20Launch.html">
+            <img src="image.jpg"  width="1100" height="500">
+            <div class="carousel-caption">
+                    <h3 class="s3">Volvo XC40 Launch</h3>
+                  </a>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Next%20generation%20Mercedes-Benz%20S-Class%20spotted%20on%20test.html/Next%20generation%20Mercedes-Benz%20S-Class%20spotted%20on%20test.html">
+            <img src="image1.jpg"  width="1100" height="500">
+            <div class="carousel-caption">
+                    <h3 class="s4">Next generation Mercedes-Benz S-Class spotted on test</h3>
+                  </a>
+                </div>
+          </div>
+          <div class="carousel-item">
+           <a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Datsun%20introduces%20new%20extended%20warranty%20plan%20in%20India/Datsun%20introduces%20new%20extended%20warranty%20plan%20in%20India.html">
+            <img src="image2.jpg"  width="1100" height="500">
+            <div class="carousel-caption">
+                    <h3 class="s4">Datsun introduces new extended warranty plan in India</h3>
+                  </a>
+                </div>
+          </div>
+          
+        </div>
+        
+       
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <div class="container-fluid">
+            
+            
+      <div class="tab-content">
+                   
+                    <div class="row">
+                            <div class="col-sm-4 bentley">
+                                   
+                                    <div  class="container-fluid tab-pane active"><br> 
+                                        <div class="card card_style" style="width:400px">
+                                    <div class="card-body ">
+                                    <img class="card-img-bottom" src="image5.jpg" alt="Card image" style="width:100%">
+                                    <p class="card-text" >2018 Bentley Continental GT review, test drive    </p>
+                                    <a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/Bentley%20Continental%20GT.html">
+                                    <div class="three-dot">...</div>
+                                    </a>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    
+                                     </div>
+<div class="col-sm-4 mercedes">
+<div  class="container-fluid tab-pane active"><br>
+     
+    <div class="card card_style" style="width:400px">
+<div class="card-body">
+<img class="card-img-bottom" src="image6.jpg" alt="Card image" style="width:100%">
+<p class="card-text" >2018 Mercedes-Benz C-class facelift review, test drive</p>
+<a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/Mercedes%20C%20CLass.html">
+        <div class="three-dot">...</div>
+        </a>
+</div>
+</div>
+</div>
+
+ </div>
+ <div class="col-sm-4 yaris">
+        <div  class="container-fluid tab-pane active"><br>
+             
+            <div class="card card_style" style="width:400px">
+        <div class="card-body">
+        <img class="card-img-bottom" src="image7.jpg" alt="Card image" style="width:100%">
+        <p class="card-text" >2018 Yaris vs Verna vs City vs Ciaz comparison       </p>
+        <a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/Toyota%20Yaris%20AT%20vs%20Hyundai%20Verna%20AT.html">
+                <div class="three-dot">...</div>
+                </a>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        
+          
+            <div class="row">
+                    <div class="col-sm-4">
+                           
+                            <div id="Firstdrive" class="container tab-pane active"><br> 
+                                <div class="card card_style" style="width:400px">
+                            <div class="card-body">
+                            <img class="card-img-bottom" src="image8.jpg" alt="Card image" style="width:100%">
+                            <p class="card-text" >2018 Audi A6 review, test drive        </p>
+                            <a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/audi%20a6.html">
+                                    <div class="three-dot">...</div>
+                                    </a>
+                            </div>
+                            </div>
+                            </div>
+                            
+                             </div>
+<div class="col-sm-4">
+<div id="Firstdrive" class="container-fluid tab-pane active"><br>
+
+<div class="card card_style" style="width:400px">
+<div class="card-body">
+<img class="card-img-bottom" src="image9.jpg" alt="Card image" style="width:100%">
+<p class="card-text" >2018 Hyundai i20 CVT review, test drive       </p>
+<a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/i20.html">
+        <div class="three-dot">...</div>
+        </a>
+</div>
+</div>
+</div>
+
+</div>
+<div class="col-sm-4">
+<div id="Firstdrive" class="container-fluid tab-pane active"><br>
+     
+    <div class="card card_style" style="width:400px">
+<div class="card-body">
+<img class="card-img-bottom" src="image10.jpg" alt="Card image" style="width:100%">
+<p class="card-text" >2018 Mahindra XUV500 facelift review, test drive </p>
+<a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/XUV%20500.html">
+        <div class="three-dot">...</div>
+        </a>
+</div>
+</div>
+</div>
+</div>
+          </div>
+          
+
+        
+        
+        
+        
+        
+          
+            <div class="row">
+                    <div class="col-sm-4">
+                           
+                            <div id="Comparisons" class="container tab-pane active"><br> 
+                                <div class="card card_style" style="width:400px">
+                            <div class="card-body">
+                            <img class="card-img-bottom" src="image11.jpg" alt="Card image" style="width:100%">
+                            <p class="card-text" >2018 Yaris vs Verna vs City vs Ciaz comparison      </p>
+                            <a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/Yaris%20vs%20Verna%20vs%20City%20vs%20Ciaz.html">
+                                    <div class="three-dot">...</div>
+                                    </a>
+                            </div>
+                            </div>
+                            </div>
+                            
+                             </div>
+<div class="col-sm-4">
+<div id="Comparisons" class="container-fluid tab-pane active"><br>
+
+<div class="card card_style" style="width:400px">
+<div class="card-body">
+<img class="card-img-bottom" src="image12.jpg" alt="Card image" style="width:100%">
+<p class="card-text" >2018 Hyundai Tucson AWD vs Volkswagen Tiguan comparison     </p>
+<a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/Hyundai%20Tucson%20AWD%20vs%20Volkswagen%20Tiguan.html">
+        <div class="three-dot">...</div>
+        </a>
+</div>
+</div>
+</div>
+
+</div>
+<div class="col-sm-4">
+<div id="Comparisons" class="container-fluid tab-pane active"><br>
+     
+    <div class="card card_style" style="width:400px">
+<div class="card-body">
+<img class="card-img-bottom" src="image13.jpg" alt="Card image" style="width:100%">
+<p class="card-text" >2018 Toyota Yaris AT vs Hyundai Verna AT comparison       </p>
+<a href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/Project/Toyota%20Yaris%20AT%20vs%20Hyundai%20Verna%20AT.html">
+        <p class="three-dot">...</p>
+        </a>
+</div>
+</div>
+</div>
+</div>
+          </div>
+     </div>
+ </div>  
+<br>
+
+</div>
+<br>
+<br>
+
+<h2 style="text-align: center;color: peru"> What Our Customers Say</h2>
+<br>
+<br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image56.jpg" width="1100" height="500">
+            <div class="carousel-caption">
+                
+                <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+            </div>
+            </div>
+        <div class="carousel-item">
+                <img src="image56.jpg" width="1100" height="500">
+                <div class="carousel-caption">
+                <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+                </div>
+        </div>
+        <div class="carousel-item">
+                <img src="image56.jpg" width="1100" height="500">
+                <div class="carousel-caption">
+                <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+                </div>
+            </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+
+</div>
+
+
+
+
+ <div class="container-fluid">
+    <ul class="pagination justify-content-center s5">
+        <li  class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/page2/page2_index.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="file:///C:/Users/vinu1/Desktop/Coding%20Blocks/Car%20Project/page3/page3_index.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+ </div>
+
+
+ <div class="container-fluid bg-grey">
+    <br>
+    <br>
+     <h1 style="text-align: center;color: peru">Contact Us</h1>
+     <p>
+      &nbsp;&nbsp;&nbsp; <img src="image57.jpg" height="20px" width="20px" class="rounded-circle">&nbsp;&nbsp;&nbsp;
+        Delhi,India
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;  <img src="image58.jpg" height="20px" width="20px" class="rounded-circle">&nbsp;&nbsp;
+               7042101868,9958588278
+           </p>
+           <p>
+            &nbsp;&nbsp;&nbsp;     <img src="image59.jpg" height="20px" width="20px" class="rounded-circle">&nbsp;&nbsp;
+                   goelvineet8@gmail.com,baby@gmail.com
+               </p>
+
+               <br>
+               <br>
+               <form class="form-inline" action="/action_page.php">
+                <input class="form-control  name s13" id="name" placeholder="Name"  name="name"  >
+                <br>
+                <input class="form-control  email s13" id="email" placeholder="Email"   name="email" >
+                
+                <br>
+                
+                <textarea class="form-control comment s13" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              </form>
+              <button class="btn btn-success s14" style="margin-left: 750px">Send</button>
+             
+ </div>
+<br>
+<br>
+ 
+ 
+
+</body>
+</html>
+
+
+
+
